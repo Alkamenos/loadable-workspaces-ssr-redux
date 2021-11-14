@@ -1,0 +1,8 @@
+{
+  "name": "ssr-sample2",
+  "version": "1.0.0",
+  "dependencies": {
+
+  },
+  "workspaces": ["src/client", "src/server"]
+}

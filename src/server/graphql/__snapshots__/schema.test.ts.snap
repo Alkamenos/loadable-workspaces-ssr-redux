@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should return result from addLike resolver 1`] = `
+Object {
+  "data": Object {
+    "addLike": Object {
+      "id": 1,
+    },
+  },
+}
+`;
+
+exports[`should return result from addLike resolver 2`] = `
+Object {
+  "data": Object {
+    "addLike": null,
+  },
+  "errors": Array [
+    [GraphQLError: Could not find],
+  ],
+}
+`;
+
+exports[`should return result from samples resolver 1`] = `
+Object {
+  "data": Object {
+    "samples": Array [
+      Object {
+        "code": "test-code",
+        "description": "aaaa",
+        "id": 1,
+        "likeCount": 0,
+        "name": "apollo.tsx",
+      },
+    ],
+  },
+}
+`;
